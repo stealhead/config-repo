@@ -1,0 +1,24 @@
+{
+    "name": "stealhead/config-repo",
+    "type": "config",
+    "description": "microservice config service",
+    "keywords": ["config","config servcie"],
+    "homepage": "https://github.com/stealhead/config-repo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steal Head",
+            "email": "stealheadone@gmail.com",
+            "homepage": "http://iyuerong.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Stealhead": "src"
+        }
+    }
+}
